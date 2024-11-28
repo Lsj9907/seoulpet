@@ -441,7 +441,6 @@ header .header-container .global-menu {
 }
 
 .fiber .fiber-txt-wrapper {
-    aspect-ratio: 1.5 / 1;
     background-color: var(--color-wake-blue);
     margin-bottom: 15px;
     place-content: center;
@@ -449,7 +448,9 @@ header .header-container .global-menu {
 
 .fiber .fiber-txt-wrapper .fiber-txt-container {
     color: var(--color-white);
+    aspect-ratio: 5 / 4;
     place-self: center;
+    align-items: center;
 }
 
 .fiber .fiber-txt-wrapper .btn-box {
