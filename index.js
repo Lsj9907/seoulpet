@@ -129,7 +129,6 @@ miniMenu.addEventListener('mouseleave', function() {
 });
 
 // 슬라이드
-$(document).ready(function() {
     const slideBox = $('.slide-box');
     
     const slides = $('.slide-item').clone();
@@ -142,7 +141,6 @@ $(document).ready(function() {
         'display': 'flex',
         'animation': `slideAnimation ${animationDuration}s linear infinite`
     });
-});
     
 
 // new- in 슬라이드

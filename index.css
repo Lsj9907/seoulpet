@@ -658,7 +658,8 @@ header .header-container .global-menu {
     aspect-ratio: 1 / 1;
     text-indent: -9999px;
     background-image: url(./images/콜라보.svg);
-    background-size: 80%;
+    background-size: contain;
+    background-position: -35px top;
     background-repeat: no-repeat;
 }
 
@@ -1178,9 +1179,10 @@ footer .footer-global {
     }
 
     .collabor .collabor-wrapper .collabor-img {
-        background-size: 85%;
+        width: 30%;
         background-position: top right;
         min-width: 800px;
+        margin-left: 18%;
     }
 
     .collabor .collabor-wrapper .email-wrapper #eMail {
