@@ -607,7 +607,6 @@ header .header-container .global-menu {
 }
 
 .collabor .collabor-wrapper {
-    aspect-ratio: 1 / 1;
     position: relative;
     z-index: 9;
     grid-auto-rows: 1fr 1fr;
@@ -631,6 +630,11 @@ header .header-container .global-menu {
     margin: 0 auto;
 }
 
+.collabor .collabor-img img{
+    position: absolute;
+    left: -40px;
+}
+
 .collabor .collabor-wrapper .email-wrapper #eMail {
     width: 275px;
     height: 30px;
@@ -652,15 +656,6 @@ header .header-container .global-menu {
     top: 55%;
     right: 20px;
     cursor: pointer;
-}
-
-.collabor .collabor-wrapper .collabor-img {
-    aspect-ratio: 1 / 1;
-    text-indent: -9999px;
-    background-image: url(./images/콜라보.svg);
-    background-size: contain;
-    background-position: -35px top;
-    background-repeat: no-repeat;
 }
 
 /* footer */
@@ -1165,6 +1160,7 @@ footer .footer-global {
 
     .collabor .collabor-wrapper .collabor-txt {
         grid-column: 2 / 3;
+        width: 500px;
         padding-left: 60px;
         text-align: left;
         margin-top: 10%;
@@ -1178,17 +1174,17 @@ footer .footer-global {
         font-size: 1rem;
     }
 
-    .collabor .collabor-wrapper .collabor-img {
-        width: 30%;
-        background-position: top right;
-        min-width: 800px;
-        margin-left: 18%;
-    }
-
     .collabor .collabor-wrapper .email-wrapper #eMail {
         width: 370px;
         height: 40px;
     }
+    .collabor .collabor-img img{
+        position: relative;
+        height: 450px;
+        left: 8%;
+    }
+
+
     footer {
         padding-top: 90px;
     }
